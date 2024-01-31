@@ -1,0 +1,11 @@
+#Write a Program to Check whether array is subset of another array or not
+arr1 = {11, 12, 13, 21, 30, 70}
+arr2 = {11, 30, 70, 12}
+ 
+m = len(arr1)
+n = len(arr2)
+ 
+if(arr1.union(arr2)==arr1):
+    print("arr2[] is subset of arr1[] ")
+else:
+    print("arr2[] is not a subset of arr1[]")
